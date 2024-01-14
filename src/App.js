@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename="/MyPortfolio" >
+    <BrowserRouter  >
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
